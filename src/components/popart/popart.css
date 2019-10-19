@@ -1,0 +1,21 @@
+.artTitle{
+    text-align: center;
+}
+
+.museumList{
+    padding-left: 2em;
+}
+
+.museumListLink{
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+    transition: .25s;
+}
+
+.museumListLink:hover{
+    text-decoration: overline;
+    overflow-y: hidden;
+    color: inherit;
+    cursor: pointer;
+}

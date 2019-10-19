@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|Catamaran|Quattrocento&display=swap');
+
+@font-face {
+  font-family: comicRL;
+  src: url("./fonts/comic_geek-webfont.woff");
+}
+
+@font-face {
+  font-family: logoFont;
+  src: url("./fonts/CalifornianText-Italic.otf");
+}
+
+.logo{
+  font-family: logoFont;
+  font-size: 200%;
+  color: #585A56 !important;
+}
+
+.pageLink{
+  color: #585A56 !important;
+  text-indent: 2.5em;
+  font-size: 150%;
+  padding-left: 1em;
+  padding-right: .25em;
+  opacity: .75; 
+}
+
+.pageLink:hover{
+  opacity: 1;
+  text-decoration: overline;
+}
+
+body{
+  background-color: #C4DBF6 !important;
+}
+
+p {
+  font-family: 'Quattrocento', serif;
+  color: #272424;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Catamaran', sans-serif;
+  color: #585A56;
+}
+
+.toggleStyle{
+  color: #585A56;
+}
+
+.fade-in {
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+
+@keyframes fadeIn{
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+
+

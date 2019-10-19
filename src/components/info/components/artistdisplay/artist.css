@@ -1,0 +1,22 @@
+iframe {
+    display: block;
+    margin: 0 auto;
+ }
+
+.warning{
+    font-size: 75%;
+    font-style: italic;
+    color: #f5473e;
+}
+
+.btn{
+    border-radius: 0px; 
+}
+
+.modal-content{
+    background-color: #F1F3F2 !important;
+    padding: 10px;
+    border-radius: 0px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+

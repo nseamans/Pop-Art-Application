@@ -1,0 +1,31 @@
+.heroimage{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), 
+                    rgba(0, 0, 0, 0.5)), 
+                      url("https://popartapp.s3.us-east-2.amazonaws.com/bgimgs/infinityroom.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 10em;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+
+.herocontainer{
+    padding-top: 1em;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+.herotitle{
+    background: rgba(0, 0, 0, 0.90);
+    font-family: 'Arima Madurai', cursive;
+    padding: .5em;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F1F3F2;
+}
+

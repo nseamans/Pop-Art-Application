@@ -1,0 +1,68 @@
+.artistDisplay{
+    min-height: 50em;
+    padding: 1em;
+}
+
+.artistcard{
+    background-color: #F1F3F2;
+    padding-top: .5em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 3em;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    min-height: 65em;
+}
+
+.textartistname{
+    /* color: #b70004 !important; */
+    color: #272727;
+    font-family: logoFont;
+}
+
+.portrait{
+    max-width: 7.5em;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    -webkit-filter: grayscale(100%) !important; /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%) !important;
+}
+
+.artistProfileButton{
+    color: #272727;
+    background:none;
+    border:none;
+    font-size:1.25em;
+    padding-bottom: .5em;
+    padding-left: .5em;
+    -webkit-transition: .25s; 
+    transition: .25s;
+}
+
+.artistProfileButton:hover{
+    text-decoration: overline;
+}
+
+.artistProfileButton:active{
+    color: #272727;
+}
+
+.artistProfileButton:focus {
+    outline: none;
+  }
+
+.artistIndex{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.carousel{
+   opacity: 0.95%;
+}
+
+.imageProperties{
+    max-width: 15em;
+    max-height: 35em;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.line{
+    opacity: 0;
+}
